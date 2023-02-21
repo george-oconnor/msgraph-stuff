@@ -18,7 +18,7 @@ setup(
     long_description_content_type="text/markdown",
     py_modules=["msgraph_stuff"],
     package_dir={'': 'src'},
-    install_requires=[],
+    install_requires=["requests"],
     keywords=['python', 'sharepoint', 'ms', 'microsoft graph', 'msgraph', 'graph', 'api', 'microsoft', 'microsoft365', 'azure', 'graph api'],
     classifiers=[
         "Development Status :: 3 - Alpha",
